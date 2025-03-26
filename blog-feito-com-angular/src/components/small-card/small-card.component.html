@@ -1,0 +1,25 @@
+<div class="container__small-card">
+
+  <div class="container__small-card-content">
+    <div class="small-card__photo">
+      <img [src]="photoCover" *ngIf="photoCover" alt="Imagem">
+
+    </div>
+
+    <div class="small-card__title">
+      <h1>
+        <a [id]="['/my-app/src/pages/content', Id]">{{ cardTitle }}</a>
+      </h1>
+      
+
+    </div>
+  </div>
+
+  <div class="container__small-card__separator">
+    <hr>
+  </div>
+
+</div>
+  
+  
+  
